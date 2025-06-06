@@ -1,5 +1,7 @@
 # arXiv MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@candenizkocak/arxiv-mcp-server)](https://smithery.ai/server/@candenizkocak/arxiv-mcp-server)
+
 This project is a Model Context Protocol (MCP) server written in Python that acts as an intelligent interface to the arXiv API. It allows Large Language Models (LLMs) like Claude to search for and retrieve academic papers.
 
 ## Features
@@ -19,6 +21,16 @@ This server exposes a suite of tools to the LLM, enabling it to:
 -   An MCP Host like [Claude for Desktop](https://www.claude.ai/download)
 
 ## Setup and Installation
+
+### Installing via Smithery
+
+To install arxiv-mcp-server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@candenizkocak/arxiv-mcp-server):
+
+```bash
+npx -y @smithery/cli install @candenizkocak/arxiv-mcp-server --client claude
+```
+
+### Manual Installation
 
 1.  **Clone the repository:**
     ```bash
