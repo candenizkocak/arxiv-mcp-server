@@ -1,0 +1,11 @@
+[project]
+name = "arxiv-server"
+version = "0.1.0"
+description = "Simple arXiv MCP Server"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "feedparser>=6.0.11",
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.9.3",
+]
