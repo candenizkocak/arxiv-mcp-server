@@ -34,7 +34,7 @@ npx -y @smithery/cli install @candenizkocak/arxiv-mcp-server --client claude
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/YOUR_USERNAME/arxiv-mcp-server.git
+    git clone https://github.com/candenizkocak/arxiv-mcp-server.git
     cd arxiv-mcp-server
     ```
 
