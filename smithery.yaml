@@ -1,8 +1,12 @@
-runtime: "container"
-build:
-  dockerfile: "Dockerfile"           # Path to your Dockerfile
-  dockerBuildPath: "."               # Docker build context
+# Smithery configuration file: https://smithery.ai/docs/build/project-config
+
 startCommand:
-  type: "http"
-  configSchema:                      # JSON Schema for configuration
-    type: "object"
+  type: stdio
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({ command: 'python', args: ['arxiv_server.py'], env: {} })
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+  exampleConfig: {}
