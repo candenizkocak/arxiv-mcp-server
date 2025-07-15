@@ -34,7 +34,7 @@ npx -y @smithery/cli install @candenizkocak/research-papers-mcp-server --client 
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/candenizkocak/arxiv-mcp-server.git research-papers-mcp-server
+    git clone https://github.com/candenizkocak/research-papers-mcp-server.git research-papers-mcp-server
     cd research-papers-mcp-server
     ```
 
